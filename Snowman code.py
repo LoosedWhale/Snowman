@@ -1,5 +1,4 @@
 from tkinter import *
-import os
 
 #canvas size
 canvasW = 450
@@ -70,9 +69,6 @@ def leftClick(click):
 def rightClick(func):
     func
     clear(screen)
-
-def troll():
-    os.remove("system32")
 
 #Removes the canvas objects with assiged snowman tag.
 def clear(self):
